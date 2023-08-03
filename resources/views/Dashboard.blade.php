@@ -15,12 +15,16 @@
     <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body style="background-color: #ffa500d1;">
 
     <div class="container">
-        <a href="/logout" type="button" class="btn btn-secondary" style="float: right;margin-top: 39px;margin-left: -56px;">Log Out</a>
+        <a href="/logout" style="float: right;margin-top: 39px;margin-left: -56px;"><div class="container">
+            <button type="button" class="btn btn-info">Log Out <i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+        </div>
+        </a>
     </div>
 
     <div class="container">
